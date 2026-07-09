@@ -63,36 +63,7 @@ Core numerical techniques include:
 ## Mathematical Model
 
 The simulation solves the incompressible Navier–Stokes equations
-
-\[
-\frac{\partial \mathbf{u}}{\partial t}
-+
-(\mathbf{u}\cdot\nabla)\mathbf{u}
-=
--\nabla p
-+
-\nu\nabla^2\mathbf{u}
-+
-\mathbf{f}
-\]
-
-subject to
-
-\[
-\nabla\cdot\mathbf{u}=0
-\]
-
-where
-
-- **u** is the velocity field
-- **p** is pressure
-- **ν** is viscosity
-- **f** represents external forces
-
-The incompressibility constraint is enforced by solving a Poisson equation for pressure.
-
----
-
+<!-- Uploading "Gemini_Generated_Image_2923d42923d42923.png"... -->
 ## Features
 
 - Real-time 2D fluid simulation
