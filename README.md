@@ -1,2 +1,204 @@
-# stable-fluids-navier-stokes
-table Numerical Simulation of Two-Dimensional Incompressible Fluid Flow Using Semi-Lagrangian Advection and Pressure Projection
+# Stable Numerical Simulation of Two-Dimensional Incompressible Fluid Flow
+
+A real-time implementation of Jos Stam's **Stable Fluids** algorithm for simulating two-dimensional incompressible fluid dynamics using the Navier–Stokes equations.
+
+The project demonstrates the numerical techniques commonly used in computational fluid dynamics (CFD) and computer graphics, including semi-Lagrangian advection, implicit diffusion, pressure projection, and interactive momentum injection.
+
+---
+
+## Overview
+
+This simulator solves the incompressible Navier–Stokes equations on a staggered grid using stable numerical integration methods that remain robust under large time steps.
+
+The implementation is entirely written in Python using NumPy for numerical computation and Pygame for visualization.
+
+Unlike particle-based simulations, this solver models velocity and density fields on an Eulerian grid while maintaining incompressibility through pressure projection.
+
+---
+
+## Demonstration
+
+<p align="center">
+
+### Fluid Simulation
+
+<img src="assets/fluid.gif" width="750"/>
+
+### Velocity Field Visualization
+
+<img src="assets/velocity.gif" width="750"/>
+
+### Vortex Injection
+
+<img src="assets/vortex.gif" width="750"/>
+
+</p>
+
+---
+
+## Numerical Methods
+
+The simulation pipeline follows Jos Stam's Stable Fluids formulation:
+
+1. Velocity diffusion
+2. Pressure projection
+3. Semi-Lagrangian velocity advection
+4. Pressure projection
+5. Density diffusion
+6. Density advection
+7. Rendering
+
+Core numerical techniques include:
+
+- Semi-Lagrangian Advection
+- Implicit Diffusion
+- Jacobi Linear Solver
+- Pressure Projection
+- Divergence-Free Velocity Enforcement
+- Finite Difference Spatial Discretization
+- Gaussian Vortex Injection
+
+---
+
+## Mathematical Model
+
+The simulation solves the incompressible Navier–Stokes equations
+
+\[
+\frac{\partial \mathbf{u}}{\partial t}
++
+(\mathbf{u}\cdot\nabla)\mathbf{u}
+=
+-\nabla p
++
+\nu\nabla^2\mathbf{u}
++
+\mathbf{f}
+\]
+
+subject to
+
+\[
+\nabla\cdot\mathbf{u}=0
+\]
+
+where
+
+- **u** is the velocity field
+- **p** is pressure
+- **ν** is viscosity
+- **f** represents external forces
+
+The incompressibility constraint is enforced by solving a Poisson equation for pressure.
+
+---
+
+## Features
+
+- Real-time 2D fluid simulation
+- Stable Navier–Stokes solver
+- Interactive dye injection
+- Interactive momentum injection
+- Vortex generation
+- Velocity field visualization
+- Density transport
+- Pressure projection
+- Implicit diffusion
+- Configurable simulation parameters
+- Interactive rendering at 60 FPS
+
+---
+
+## Controls
+
+| Key | Action |
+|------|--------|
+| Left Mouse | Inject dye and momentum |
+| Right Mouse | Spawn vortex |
+| V | Toggle velocity vectors |
+| Space | Pause simulation |
+| C | Clear simulation |
+
+---
+
+## Project Structure
+
+```
+stable-fluids-navier-stokes/
+│
+├── fluid.py
+├── README.md
+├── LICENSE
+│
+├── assets/
+│   ├── fluid.gif
+│   ├── velocity.gif
+│   ├── vortex.gif
+│   └── preview.png
+│
+└── requirements.txt
+```
+
+---
+
+## Installation
+
+```bash
+git clone https://github.com/username/stable-fluids-navier-stokes.git
+
+cd stable-fluids-navier-stokes
+
+pip install -r requirements.txt
+```
+
+---
+
+## Run
+
+```bash
+python fluid.py
+```
+
+---
+
+## Dependencies
+
+- Python 3.x
+- NumPy
+- Pygame
+
+---
+
+## References
+
+Jos Stam.
+
+**Stable Fluids.**
+
+Proceedings of SIGGRAPH 1999.
+
+Bridson, Robert.
+
+**Fluid Simulation for Computer Graphics.**
+
+CRC Press.
+
+---
+
+## Future Work
+
+- GPU acceleration using CUDA
+- Adaptive grids
+- Pressure multigrid solver
+- Vorticity confinement
+- Higher-order advection schemes
+- Free surface simulation
+- 3D fluid solver
+- Smoke and fire rendering
+- OpenGL visualization
+
+---
+
+## License
+
+MIT License
