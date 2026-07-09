@@ -138,6 +138,8 @@ python fluid.py
 - Python 3.x
 - NumPy
 - Pygame
+```bash
+pip install numpy pygame
 
 ---
 
