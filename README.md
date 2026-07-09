@@ -63,7 +63,8 @@ Core numerical techniques include:
 ## Mathematical Model
 
 The simulation solves the incompressible Navier–Stokes equations
-<!-- Uploading "Gemini_Generated_Image_2923d42923d42923.png"... -->
+<img width="2816" height="1536" alt="Image" src="https://github.com/user-attachments/assets/778cbc88-4d5c-4147-8e7b-21b97bac5566" />
+
 ## Features
 
 - Real-time 2D fluid simulation
