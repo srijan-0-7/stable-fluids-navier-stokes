@@ -140,7 +140,7 @@ python fluid.py
 - Pygame
 ```bash
 pip install numpy pygame
-
+```
 ---
 
 ## References
