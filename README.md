@@ -93,26 +93,6 @@ The simulation solves the incompressible Navier–Stokes equations
 
 ---
 
-## Project Structure
-
-```
-stable-fluids-navier-stokes/
-│
-├── fluid.py
-├── README.md
-├── LICENSE
-│
-├── assets/
-│   ├── fluid.gif
-│   ├── velocity.gif
-│   ├── vortex.gif
-│   └── preview.png
-│
-└── requirements.txt
-```
-
----
-
 ## Installation
 
 ```bash
