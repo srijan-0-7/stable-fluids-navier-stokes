@@ -21,24 +21,14 @@ Unlike particle-based simulations, this solver models velocity and density field
 <p align="center">
 
 ### Fluid Simulation
-https://github.com/user-attachments/assets/6baf92d1-7d43-490b-b315-a73c3c85f15a
-
-<img src="assets/fluid.gif" width="750"/>
+https://github.com/user-attachments/assets/d36337a9-3f75-400a-a68c-8965e31640a6
 
 ### Velocity Field Visualization
+https://github.com/user-attachments/assets/b095facd-eef0-4907-8682-4e5cbb3735b3
 
-<video
-  src="https://github.com/user-attachments/assets/6baf92d1-7d43-490b-b315-a73c3c85f15a"
-  autoplay
-  loop
-  muted
-  playsinline
-  width="100%">
-</video>
 ### Vortex Injection
-<video autoplay loop muted playsinline style="width: 100%; aspect-ratio: 1/1; object-fit: cover;">
-  <source src="https://github.com/user-attachments/assets/6baf92d1-7d43-490b-b315-a73c3c85f15a" type="video/mp4">
-</video>
+https://github.com/user-attachments/assets/6baf92d1-7d43-490b-b315-a73c3c85f15a
+
 </p>
 
 ---
