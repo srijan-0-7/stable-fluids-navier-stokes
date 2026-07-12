@@ -32,7 +32,7 @@ Unlike particle-based simulations, this solver models velocity and density field
 </video>
 
 ### Vortex Injection
-<video autoplay loop muted playsinline width="500" height="500" style="object-fit: cover;">
+<video autoplay loop muted playsinline style="width: 100%; aspect-ratio: 1/1; object-fit: cover;">
   <source src="https://github.com/user-attachments/assets/6baf92d1-7d43-490b-b315-a73c3c85f15a" type="video/mp4">
 </video>
 </p>
