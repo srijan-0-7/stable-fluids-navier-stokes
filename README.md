@@ -21,6 +21,7 @@ Unlike particle-based simulations, this solver models velocity and density field
 <p align="center">
 
 ### Fluid Simulation
+https://github.com/user-attachments/assets/6baf92d1-7d43-490b-b315-a73c3c85f15a
 
 <img src="assets/fluid.gif" width="750"/>
 
