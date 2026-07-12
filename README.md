@@ -30,7 +30,6 @@ Unlike particle-based simulations, this solver models velocity and density field
 
 ### Vortex Injection
 
-[https://github.com/user-attachments/assets/5bcf05e4-8fbe-4540-a429-9256af5ef70e](https://github.com/user-attachments/assets/8489374f-a5ff-490f-97df-1c03f34af809)
 
 </p>
 
