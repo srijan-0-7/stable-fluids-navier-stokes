@@ -75,6 +75,7 @@ The simulation solves the incompressible Navier–Stokes equations
 - Implicit diffusion
 - Configurable simulation parameters
 - Interactive rendering at 60 FPS
+- Vorticity Confinement
 
 ---
 
@@ -87,7 +88,7 @@ The simulation solves the incompressible Navier–Stokes equations
 | V | Toggle velocity vectors |
 | Space | Pause simulation |
 | C | Clear simulation |
-
+| U | Toggle vorticity confinement | Default: ON
 ---
 
 ## Installation
@@ -141,7 +142,6 @@ CRC Press.
 - GPU acceleration using CUDA
 - Adaptive grids
 - Pressure multigrid solver
-- Vorticity confinement
 - Higher-order advection schemes
 - Free surface simulation
 - 3D fluid solver
