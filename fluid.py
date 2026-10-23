@@ -9,7 +9,7 @@ DIFF   = 0.00005     # dye diffusion rate
 VISC   = 0.00005     # kinematic viscosity
 ITERS  = 20          # Jacobi solver iterations
 VORT_EPS = 150.0     # vorticity confinement strength (0 disables)
-                     # Do note, changing N and DT will need a change in VORT_EPS aswell. use VORT_EPS = 50.0 if taking N = 96 and DT = 0.1
+                     # Do note, changing N and DT will need a change in VORT_EPS aswell. use VORT_EPS = 50.0 if taking N = 96 and DT = 0.01
 SIZE = N + 2         # grid + boundary cells
 
 # Fields: velocity (u, v) and dye density
